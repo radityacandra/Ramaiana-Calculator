@@ -12,28 +12,22 @@
         android:layout_alignParentTop="true" >
 
         <Button
-            android:id="@+id/cekBtn"
+            android:id="@+id/baju"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Baju" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Celana" />
-
-        <Button
-            android:id="@+id/button3"
+            android:id="@+id/sepatu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sepatu" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jaket" />
+            android:text="Reset" />
     </LinearLayout>
 
     <ListView

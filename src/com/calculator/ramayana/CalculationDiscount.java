@@ -58,7 +58,7 @@ public class CalculationDiscount extends Activity implements OnClickListener {
 		potonganHarga.setText(String.valueOf(potonganHarga_calc));
 		hargaBayar.setText(String.valueOf(hargatotal));
 		
-		Button cek = (Button)findViewById(R.id.cekBtn);
+		Button cek = (Button)findViewById(R.id.baju);
 		Button beli = (Button)findViewById(R.id.buyBtn);
 		
 		cek.setOnClickListener(this);
@@ -69,7 +69,7 @@ public class CalculationDiscount extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch(v.getId()){
-			case (R.id.cekBtn):
+			case (R.id.baju):
 				EditText kuantitas = (EditText)findViewById(R.id.value_kuantitas);
 				TextView potonganHarga = (TextView)findViewById(R.id.value_harga_discount);
 				TextView hargaBayar = (TextView)findViewById(R.id.value_harga_total);

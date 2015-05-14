@@ -36,7 +36,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/deskripsi_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/value_total"
@@ -49,13 +49,13 @@
         android:id="@+id/value_harga_satuan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView3"
-        android:layout_toRightOf="@+id/textView3"
+        android:layout_alignBottom="@+id/deskripsi_text_view"
+        android:layout_toRightOf="@+id/deskripsi_text_view"
         android:text="Value"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/nama_text_view_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/value_total"
@@ -68,9 +68,9 @@
         android:id="@+id/value_kuantitas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignLeft="@+id/deskripsi_text_view"
         android:layout_alignRight="@+id/value_nama_barang"
-        android:layout_alignTop="@+id/textView4"
+        android:layout_alignTop="@+id/nama_text_view_2"
         android:ems="10"
         android:inputType="number"
         android:text="1" >
@@ -111,7 +111,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignLeft="@+id/nama_text_view_2"
         android:layout_below="@+id/value_kuantitas"
         android:text="Discount"
         android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -134,11 +134,11 @@
         android:text="Val" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/discount_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView8"
-        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignBaseline="@+id/harga_text_view"
+        android:layout_alignBottom="@+id/harga_text_view"
         android:layout_alignLeft="@+id/value_kuantitas"
         android:text="Rp"
         android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -147,8 +147,8 @@
         android:id="@+id/value_harga_discount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView9"
-        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignBaseline="@+id/discount_text_view"
+        android:layout_alignBottom="@+id/discount_text_view"
         android:layout_alignLeft="@+id/value_harga_satuan"
         android:text="Value"
         android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -159,7 +159,7 @@
         android:layout_height="1dp"
         android:layout_alignLeft="@+id/textView6"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView9"
+        android:layout_below="@+id/discount_text_view"
         android:layout_marginRight="42dp"
         android:layout_marginTop="14dp"
         android:background="@android:color/darker_gray" />
@@ -179,7 +179,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView10"
-        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignLeft="@+id/discount_text_view"
         android:text="Rp"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -194,7 +194,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/cekBtn"
+        android:id="@+id/baju"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView10"
@@ -206,13 +206,13 @@
         android:id="@+id/buyBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/cekBtn"
-        android:layout_alignBottom="@+id/cekBtn"
+        android:layout_alignBaseline="@+id/baju"
+        android:layout_alignBottom="@+id/baju"
         android:layout_toRightOf="@+id/value_harga_total"
         android:text="Beli" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/harga_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/value_persen_diskon"

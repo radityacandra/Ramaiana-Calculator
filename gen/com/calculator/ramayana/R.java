@@ -11,32 +11,43 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int b1=0x7f020000;
+        public static final int b2=0x7f020001;
+        public static final int b3=0x7f020002;
+        public static final int b4=0x7f020003;
+        public static final int b5=0x7f020004;
+        public static final int b6=0x7f020005;
+        public static final int b7=0x7f020006;
+        public static final int b8=0x7f020007;
+        public static final int b9=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int s1=0x7f02000a;
+        public static final int s2=0x7f02000b;
+        public static final int s3=0x7f02000c;
+        public static final int s4=0x7f02000d;
+        public static final int s5=0x7f02000e;
     }
     public static final class id {
         public static final int TextView01=0x7f060008;
-        public static final int button2=0x7f060017;
-        public static final int button3=0x7f060018;
-        public static final int button4=0x7f060019;
+        public static final int baju=0x7f060014;
         public static final int buyBtn=0x7f060015;
-        public static final int cekBtn=0x7f060014;
-        public static final int deskripsi_text_view=0x7f06001d;
-        public static final int discount_text_view=0x7f06001f;
-        public static final int harga_text_view=0x7f06001e;
-        public static final int imageView1=0x7f06001b;
+        public static final int deskripsi_text_view=0x7f060003;
+        public static final int discount_text_view=0x7f06000d;
+        public static final int harga_text_view=0x7f06000e;
+        public static final int imageView1=0x7f06001a;
         public static final int linearLayout1=0x7f060016;
-        public static final int listView1=0x7f06001a;
+        public static final int listView1=0x7f060019;
         public static final int nama_text_view=0x7f06001c;
+        public static final int nama_text_view_2=0x7f060005;
+        public static final int reset=0x7f060018;
+        public static final int sepatu=0x7f060017;
         public static final int textView1=0x7f060000;
         public static final int textView10=0x7f060011;
         public static final int textView11=0x7f060012;
-        public static final int textView3=0x7f060003;
-        public static final int textView4=0x7f060005;
+        public static final int textView2=0x7f06001b;
         public static final int textView5=0x7f060007;
         public static final int textView6=0x7f06000a;
         public static final int textView7=0x7f06000b;
-        public static final int textView8=0x7f06000e;
-        public static final int textView9=0x7f06000d;
         public static final int value_harga_discount=0x7f06000f;
         public static final int value_harga_satuan=0x7f060004;
         public static final int value_harga_satuan_2=0x7f060009;
